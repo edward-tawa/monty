@@ -1,7 +1,8 @@
 #include "monty.h"
+void nothing(void);
 int push_arg = 0;
 
-char *parse_line(char *line)
+/**char *parse_line(char *line)
 {
 	char *opcode;
 	char *push;
@@ -14,8 +15,8 @@ char *parse_line(char *line)
 	if (strcmp(opcode, push) == 0)
 		push_arg = atoi(strtok(NULL, delim));
 	return (opcode);
-}
-int main(void)
+}**/
+int _check(void)
 {
 	char *s1, *s2, *s3, *op_code;
 

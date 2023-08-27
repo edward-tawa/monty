@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * read_file - reads a bytecode file and runs commands
  * @filename: pathname to file
@@ -83,7 +84,6 @@ instruct_func get_op_func(char *str)
 	return (instruct[i].f);
 }
 
-#include "monty.h"
 
 /**
  * parse_line - parses a line for an opcode and arguments
